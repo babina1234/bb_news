@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- .fontawasome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navigation bar   -->
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="#"> BB News</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Recent post</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-light dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Catagory
+                        </a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item text-light" href="#">Sports</a></li>
+                            <li><a class="dropdown-item text-light" href="#">Politics</a></li>
+                            <li><a class="dropdown-item text-light" href="#">National</a></li>
+                            <li>
+
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+
+                    <button class="btn btn-outline-success" type="submit">Sign up</button>
+                    <button class="btn btn-outline-success mx-2" type="submit">Log in</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- close navigation bar  -->
+
+    <!-- crosule section  -->
+    <div class="row">
+        <div class="col-lg-7">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" style="height: 500px;">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="images/slider01.jpg" alt="First slide" style="height: 500px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/slider02.jpg" alt="Second slide" style="height: 500px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/slider03.jpg" alt="Third slide" style="height: 500px;">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-5 bg-dark p-4">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/OFwvm4-BEOo?si=9WS0B3RrQekJSrm3"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+            <div class="row my-2">
+                <div class="col-lg-12 text-light">
+                    <h4>
+                        My Blog live TV | 24 X 7 get Latest News
+                    </h4>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end crosule section  -->
+    <!-- blog section  -->
+    <div class="row">
+        <div class="col-lg-10 m-auto">
+            <!-- news card section  -->
+            <div class="row my-5">
+                <div class="col-lg-3">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="images/slider04.jpg" alt="" srcset="" style="width: 100%;">
+                        </div>
+                        <div class="col-lg-8">
+                            <h5 style="font-size: 15px;">
+                                News Heading
+                            </h5>
+                            <p style="font-size: 10px;">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quod, distinctio
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="images/slider04.jpg" alt="" srcset="" style="width: 100%;">
+                        </div>
+                        <div class="col-lg-8">
+                            <h5 style="font-size: 15px;">
+                                News Heading
+                            </h5>
+                            <p style="font-size: 10px;">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quod, distinctio
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="images/slider04.jpg" alt="" srcset="" style="width: 100%;">
+                        </div>
+                        <div class="col-lg-8">
+                            <h5 style="font-size: 15px;">
+                                News Heading
+                            </h5>
+                            <p style="font-size: 10px;">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quod, distinctio
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="images/slider04.jpg" alt="" srcset="" style="width: 100%;">
+                        </div>
+                        <div class="col-lg-8">
+                            <h5 style="font-size: 15px;">
+                                News Heading
+                            </h5>
+                            <p style="font-size: 10px;">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quod, distinctio
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-12 m-5 text-center border-bottom">
+                    <h3>Latest News</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card border-0">
+                        <div class="card-header border-0 bg-transparent p-0">
+                            <img src="images/slider03.jpg" alt="" srcset="" style="width:100%;">
+                        </div>
+                        <div class="card-body">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla a ullam distinctio
+                            architecto dicta consectetur natus harum rem, doloremque nisi?
+                        </div>
+                        <div class="card-footer bg-transparent px-0" style="text-align: right;">
+                            <button class="btn btn-danger rounded-0">Read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0">
+                        <div class="card-header border-0 bg-transparent p-0">
+                            <img src="images/slider01.jpg" alt="" srcset="" style="width:100%;">
+                        </div>
+                        <div class="card-body">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla a ullam distinctio
+                            architecto dicta consectetur natus harum rem, doloremque nisi?
+                        </div>
+                        <div class="card-footer bg-transparent px-0" style="text-align: right;">
+                            <button class="btn btn-danger rounded-0">Read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0">
+                        <div class="card-header border-0 bg-transparent p-0">
+                            <img src="images/slider04.jpg" alt="" srcset="" style="width:100%;">
+                        </div>
+                        <div class="card-body">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla a ullam distinctio
+                            architecto dicta consectetur natus harum rem, doloremque nisi?
+                        </div>
+                        <div class="card-footer bg-transparent px-0" style="text-align: right;">
+                            <button class="btn btn-danger rounded-0">Read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card border-0">
+                        <div class="card-header border-0 bg-transparent p-0">
+                            <img src="images/slider01.jpg" alt="" srcset="" style="width:100%;">
+                        </div>
+                        <div class="card-body">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla a ullam distinctio
+                            architecto dicta consectetur natus harum rem, doloremque nisi?
+                        </div>
+                        <div class="card-footer bg-transparent px-0" style="text-align: right;">
+                            <button class="btn btn-danger rounded-0">Read more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end blog  -->
+    <!-- about us -->
+    <div class="row">
+        <div class="col-lg-10 m-auto">
+            <div class="row my-5">
+                <div class="col-lg-6 my-5">
+                    <h1> About Us </h1>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni corporis placeat ullam, error
+                        suscipit dicta consequatur, eveniet porro sed tempora temporibus similique perspiciatis deleniti
+                        non reprehenderit in optio cupiditate labore. Architecto quas aut ex aliquid eos tempore
+                        voluptatem fugit sint aspernatur id eveniet eius illo porro, at provident dicta rerum? In
+                        aliquid explicabo doloribus iusto?
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam cum culpa ullam, magnam id
+                        molestias iusto odit atque, nostrum distinctio asperiores adipisci iure, voluptate deserunt
+                        omnis saepe suscipit. Iure beatae harum pariatur. Culpa illo ratione adipisci debitis animi
+                        consequuntur facere?
+                    </p>
+                    <div class="row">
+                        <div class="col-lg-12 my-3">
+                            <button class="btn btn-light shadow rounded-0 font-weight-bold" >News Contributer</button>
+                            <button class="btn btn-light shadow rounded-0 font-weight-bold" >Share your Interest</button>
+                            <button class="btn btn-light shadow rounded-0 font-weight-bold" >Comment</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/about_us.png" alt="" style="width: 100%;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end about us -->
+    <!-- services -->
+    <div class="row my-5 bg-light">
+        <div class="row my-5">
+            <div class="col-lg-12 text-center">
+                <h1> Our Services</h1>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="row my-5">
+                <div class="col-lg-5 text-center"> <img src="images/contentmarketing.png" alt=""
+                        style="height: 100px; width: 100px;"></div>
+                <div class="col-lg-7">
+                    <h5> News contributer</h5>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, totam?</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="row my-5">
+                <div class="col-lg-5 text-center"> <img src="images/mediarsrch.png" alt=""
+                        style="height: 100px; width: 100px;"></div>
+                <div class="col-lg-7">
+                    <h5> Media Research</h5>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, totam?</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="row my-5">
+                <div class="col-lg-5 text-center"> <img src="images/techdelp.png" alt=""
+                        style="height: 100px; width: 100px;"></div>
+                <div class="col-lg-7">
+                    <h5> Tech Development</h5>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, totam?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- endservicessection -->
+    <!-- .footer -->
+    <div class="row bg-dark text-light">
+        <div class="col-lg-4">
+            <div class="row">
+                <div class="col-lg-12 text-center my-5">
+                    <img src="images/argus logo.png" alt="" srcset="" style="height: 100px; width: 100px;">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    ARGUS
+                    PRATHAM BROADCAST INDIA PVT LTD
+
+
+                    4th Floor, Symphony Mall, NH-16
+                    Rudrapur, Bhubaneswar, Odisha - 752101
+                    Contact No : 0674-6818181
+                    Email ID : contact@argusnews.in
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="row my-3">
+                <div class="col-lg-12 text-center">
+                    <h5> Connect With Us</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 m-auto">
+                    <ul style="list-style-type: none;">
+                        <li class="text-light">
+                            <i class="fa-brands fa-facebook"></i> Facebook
+                        </li>
+                        <li class="text-light my-3">
+                            <i class="fa-brands fa-youtube"></i> Youtube
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-instagram"></i> Instagram
+                        </li>
+                        <li class="text-light my-3">
+                            <i class="fa-brands fa-linkedin"></i> Linkedin
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <!-- <button class="btn btn-transparent text-light my-2" style="width: 100%;"><i class="fa-brands fa-facebook"></i>
+                Facebook</button>
+            <button class="btn btn-transparent text-light my-2" style="width: 100%;"><i class="fa-brands fa-youtube"></i> Youtube
+            </button>
+            <button class="btn btn-transparent text-light my-2" style="width: 100%;"><i class="fa-brands fa-instagram"></i>
+                Instagram</button>
+            <button class="btn btn-transparent text-light my-2" style="width: 100%;"><i class="fa-brands fa-linkedin"></i>Linkedin
+            </button> -->
+        </div>
+        <div class="col-lg-4">
+            <div class="row">
+                <div class="col-lg-12 my-3">
+                    <h5> Our Location </h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7489.47555174707!2d86.17675259469712!3d20.186640801688338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1986b1c0daea01%3A0x3c5fa72674342970!2sBaradhi%2C%20Salajanga%2C%20Odisha%20754109!5e0!3m2!1sen!2sin!4v1696651361378!5m2!1sen!2sin"
+                width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- .endfooter -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+  
+
+</body>
+
+</html>
